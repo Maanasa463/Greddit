@@ -1,0 +1,82 @@
+/* body {
+    background-color: beige;
+} */
+
+table.no-spacing {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.container table {
+    /* padding-top: 15%; */
+    /* border-color: white;
+    border: 2px;
+    border-style: inset; */
+    width: 400px;
+    /* border-radius: 10%; */
+    padding-right: 15%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    /* display: grid; */
+}
+
+.container tr {
+    border-color: white;
+    border-bottom: 1px;
+}
+
+.container td {
+    padding: 10px;
+    width: 150px;
+    border-radius: 20%;
+    /* border: 2px white; */
+    color: aliceblue;
+    text-align: center;
+    /* color: rgb(181, 185, 189); */
+}
+
+.container th {
+    background-color: none;
+    font-weight: bold;
+    font-size: 20px;
+    /* border-right: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+/* td:nth-child(even) {
+    color:rgb(226, 230, 233)
+} */
+
+/* td:nth-child(odd) {
+    color: rgb(181, 185, 189);
+    color: ;
+
+} */
+
+/* button {
+    border:rgb(226, 230, 233);
+    color:rgb(226, 230, 233)
+} */
+
+.container button {
+    border-radius: 20%;
+    border-color: black;
+    font-weight: bold;
+    height: 30px;
+    /* background-color: green; */
+}
+
+.container button:hover {
+    background-color: rgb(3, 11, 30);
+    color: aliceblue;
+}
+
+
